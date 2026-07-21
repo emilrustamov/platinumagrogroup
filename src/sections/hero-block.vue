@@ -16,7 +16,7 @@ const { t } = useI18n()
 
     <!-- ВТОРОЕ ИЗОБРАЖЕНИЕ (девушка) -->
     <div class="absolute inset-0 w-full h-full bg-contain bg-no-repeat"
-      style="background-image: url('/images/hero/hero-2.png'); background-position: center right 5%; background-size: contain;">
+      style="background-image: url('/images/hero/hero-2.webp'); background-position: center right 5%; background-size: contain;">
     </div>
 
     <!-- КОНТЕНТ (тексты) -->

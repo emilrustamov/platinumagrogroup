@@ -15,7 +15,7 @@ import { productsMeta } from '../src/data/products.js'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // Замените на ваш реальный домен
-const SITE_URL = 'https://YOUR-DOMAIN.com'
+const SITE_URL = 'https://platinumagrogroup.by'
 
 const today = new Date().toISOString().split('T')[0]
 

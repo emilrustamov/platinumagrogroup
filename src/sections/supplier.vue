@@ -34,9 +34,9 @@ const toggleCard = (index) => {
 
 // Визуальные данные (картинки, цвета, задержки) остаются в коде
 const cardMeta = [
-  { id: 1, image: '/images/supp/11.jpg', bgColor: 'bg-pink-100', delay: '0s' },
-  { id: 2, image: '/images/supp/sup-he-2.jpg', bgColor: 'bg-purple-100', delay: '0.15s' },
-  { id: 3, image: '/images/supp/sup-he-3.jpg', bgColor: 'bg-blue-100', delay: '0.3s' }
+  { id: 1, image: '/images/supp/11.webp', bgColor: 'bg-pink-100', delay: '0s' },
+  { id: 2, image: '/images/supp/sup-he-2.webp', bgColor: 'bg-purple-100', delay: '0.15s' },
+  { id: 3, image: '/images/supp/sup-he-3.webp', bgColor: 'bg-blue-100', delay: '0.3s' }
 ]
 
 // tm() достаёт "сырой" массив { title, description, description2 } из locale-файла (about.cards)

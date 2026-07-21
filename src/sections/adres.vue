@@ -42,7 +42,7 @@ onBeforeUnmount(() => {
       
       <!-- ФОНОВОЕ ИЗОБРАЖЕНИЕ - БЕЗ АНИМАЦИИ -->
       <img 
-        src="/images/f-ter2.png" 
+        src="/images/f-ter2.webp" 
         alt="Premium Fruit Background" 
         class="absolute inset-0 w-full h-full object-cover z-0"
       />

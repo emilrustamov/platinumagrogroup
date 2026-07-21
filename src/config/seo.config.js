@@ -1,5 +1,5 @@
 // Замените на ваш реальный домен
-export const SITE_URL = 'https://YOUR-DOMAIN.com'
+export const SITE_URL = 'https://platinumagrogroup.by'
 export const SITE_NAME = 'Platinum AgroGroup'
 export const DEFAULT_OG_IMAGE = `${SITE_URL}/images/og-default.jpg`
 
