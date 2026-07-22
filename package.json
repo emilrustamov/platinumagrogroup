@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/generate-sitemap.mjs && vite build",
+    "build": "node scripts/generate-sitemap.mjs && vite build && node generate-seo-pages.mjs",
     "sitemap": "node scripts/generate-sitemap.mjs",
     "preview": "vite preview"
-},
+  },
   "dependencies": {
     "@vueuse/head": "^2.0.0",
     "vue": "^3.5.38",
