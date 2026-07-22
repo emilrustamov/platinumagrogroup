@@ -39,6 +39,12 @@ const router = createRouter({
       // route level code-splitting
       component: () => import('@/views/OneProductView.vue'),
     },
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      component: () => import('@/views/NotFoundPage.vue'), // поправь путь под своё расположение
+      meta: { noLayout: true }, // ← ЭТА СТРОКА — сигнал для App.vue "не оборачивай в DefaultLayout"
+    }
   ],
   scrollBehavior(to, from, savedPosition) {
     // Если есть сохраненная позиция (например, при нажатии "назад")

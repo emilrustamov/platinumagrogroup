@@ -53,8 +53,8 @@
                         class="absolute inset-0 w-full h-full object-cover z-0 pointer-events-none">
                         <source src="" type="video/mp4" />
                     </video>
-                    <img src="/images/join/join-now.png" :alt="t('join.videoImageAlt')"
-                        class="relative z-10 max-h-full w-auto object-contain mix-blend-multiply invert" />
+                    <img src="/images/join/join-now.webp" :alt="t('join.videoImageAlt')"
+                        class="relative z-10 max-h-full w-auto object-contain" />
                 </div>
 
                 <!-- Форма ввода email - БЕЗ АНИМАЦИИ -->

@@ -7,6 +7,7 @@ import blog from './blog.js'
 import about from './about.js'
 import contact from './contact.js'
 import products from './products/index.js'
+import notFound from './not-found.js'
 
 export default {
   ...hero,
@@ -17,5 +18,6 @@ export default {
   ...blog,
   ...about,
   ...contact,
-  ...products
+  ...products,
+  ...notFound
 }
