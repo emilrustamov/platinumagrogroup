@@ -19,6 +19,7 @@ export const countries = {
     china: 'Кітай',
     usa: 'ЗША',
     mexico: 'Мексіка',
-    peru: 'Перу'
+    peru: 'Перу',
+    turkmenistan: 'Туркменістан'
     // Дадавайце новыя краіны сюды па меры неабходнасці
   }

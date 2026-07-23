@@ -288,72 +288,7 @@ onBeforeUnmount(() => {
             </div>
 
             <!-- ТАБЫ -->
-            <div class="mt-24 pt-16">
-                <!-- Вкладки -->
-                <div class="flex flex-wrap gap-x-16 gap-y-2 border-b border-gray-100 pb-10">
-                    <button v-for="tab in tabs" :key="tab.id" @click="activeTab = tab.id"
-                        class="pb-4 text-[16px] uppercase tracking-widest font-semibold transition-all duration-300 relative"
-                        :class="activeTab === tab.id ? 'text-prime' : 'text-gray-400 hover:text-gray-600'">
-                        {{ tab.label }}
-                        <span v-if="activeTab === tab.id"
-                            class="absolute bottom-0 left-0 w-full h-[2px] bg-prime"></span>
-                    </button>
-                </div>
 
-                <!-- Контент таба - С АНИМАЦИЕЙ переключения -->
-                <div class="max-w-4xl">
-                    <Transition
-                        mode="out-in"
-                        enter-active-class="transition duration-300 ease-out"
-                        enter-from-class="opacity-0 translate-y-2"
-                        enter-to-class="opacity-100 translate-y-0"
-                        leave-active-class="transition duration-200 ease-in"
-                        leave-from-class="opacity-100 translate-y-0"
-                        leave-to-class="opacity-0 -translate-y-2"
-                    >
-                        <div :key="activeTab">
-                            <h3 class="text-2xl font-light text-[#1a2b4c] tracking-wide pt-2 pb-6">
-                                {{ tabContent.title }}
-                            </h3>
-
-                            <!-- ⭐⭐⭐ DESCRIPTION DESIGNED - УНИВЕРСАЛЬНЫЙ ТЕКСТ ДЛЯ ВСЕХ ПРОДУКТОВ ⭐⭐⭐ -->
-                            <div v-if="activeTab === 'description'"
-                                class="mb-6 p-6 bg-amber-50/80 rounded-xl border border-amber-200/60">
-                                <p class="text-gray-700 text-base italic leading-relaxed font-serif">
-                                    "{{ descriptionText }}"
-                                </p>
-                            </div>
-
-                            <div class="prose py-6 prose-gray max-w-none">
-                                <div v-if="Array.isArray(tabContent.content)">
-                                    <div v-if="activeTab === 'description'"
-                                        class="space-y-4 text-gray-600 leading-relaxed text-[16px]">
-                                        <p v-for="(paragraph, idx) in tabContent.content" :key="idx">
-                                            {{ paragraph }}
-                                        </p>
-                                    </div>
-                                    <ul v-else class="space-y-3.5 text-gray-600 text-[16px]">
-                                        <li v-for="(item, idx) in tabContent.content" :key="idx" class="flex items-start gap-3">
-                                            <span class="w-1.5 h-1.5 rounded-full bg-prime mt-2 shrink-0"></span>
-                                            <span class="leading-relaxed">{{ item }}</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <p v-else class="text-gray-600 text-[16px] leading-relaxed">
-                                    {{ tabContent.content }}
-                                </p>
-                            </div>
-                        </div>
-                    </Transition>
-                </div>
-
-                <div
-                    class="mt-16 pt-6 border-t border-gray-100 flex flex-col sm:flex-row items-center justify-between gap-4">
-                    <p class="text-xs text-gray-400">
-                        {{ t('productDetail.complianceNote') }}
-                    </p>
-                </div>
-            </div>
 
         </div>
     </section>
