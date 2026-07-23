@@ -170,7 +170,7 @@ const oppositeCategory = computed(() => {
                 <h4 class="text-lg font-normal text-secondary">{{ product.name }}</h4>
               </div>
               <p class="text-xs text-gray-400 uppercase tracking-[0.2em] mt-2 text-left">
-                {{ product.country || 'Turkey' }}
+                <!-- {{ t('countries.' + (product.country)) }} -->
               </p>
             </div>
           </div>

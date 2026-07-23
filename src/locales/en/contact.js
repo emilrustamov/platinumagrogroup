@@ -19,8 +19,8 @@ export default {
       email: 'Email',
       emailText: 'Reliable and indispensable means of communication in the digital age.',
       location: 'Location',
-      locationText: 'P.O. Box City, USA, 8779 West 801 NORWAY, USA 111',
-      phone: '+012 345 6789',
+      locationText: '220005, Republic of Belarus, Minsk, 9 Masherova Avenue, room 1, office 3',
+      phone: '+375 44 598-58-92',
       emailAddress: "info{'@'}platinumagrogroup.com"
     },
   

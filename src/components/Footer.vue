@@ -1,7 +1,8 @@
 <script setup>
 import { RouterLink } from 'vue-router'
 import { useI18n } from 'vue-i18n'
-
+import contactForm from './contact-form.vue';
+import ContactForm from './contact-form.vue';
 const { t } = useI18n()
 </script>
 
@@ -44,6 +45,8 @@ const { t } = useI18n()
                     <div class="flex flex-col gap-2 text-[16px] text-gray-300 font-light leading-relaxed">
                         <p>{{ t('footer.address') }}</p>
                         <p>{{ t('footer.city') }}</p>
+                        <p>{{ t('footer.unp') }} 194008551</p>
+                        <p>{{ t('footer.tradeRegistryLabel') }} 780475, {{ t('footer.tradeRegistryDateLabel') }} 25.06.2026</p>
                         <p class="mt-2">{{ t('footer.phone') }}</p>
                         <p>{{ t('footer.email') }}</p>
                     </div>
@@ -93,21 +96,28 @@ const { t } = useI18n()
                     <p class="text-[16px] text-gray-300 font-light leading-relaxed pb-5 max-w-xs">
                         {{ t('footer.contactText') }}
                     </p>
-                    <form @submit.prevent class="max-w-[320px] flex flex-col gap-4">
-                        <input type="email" :placeholder="t('footer.emailPlaceholder')"
-                            class="w-full bg-transparent border border-white/20 px-4 py-3 text-[16px] text-white placeholder-gray-400 focus:outline-none focus:border-white transition-colors rounded-none" />
-                        <button type="submit"
-                            class="w-fit bg-prime text-white text-[11px] uppercase tracking-[0.25em] font-medium px-10 py-3.5 hover:bg-white hover:text-[#122842] transition-colors duration-300 rounded-none font-syncopate">
-                            {{ t('footer.send') }}
-                        </button>
-                    </form>
+                    <ContactForm variant="compact"/>
                 </div>
             </div>
 
             <!-- НИЖНЯЯ СТРОКА -->
-            <div class="w-full text-center pt-6 text-[11px] text-gray-400 font-light tracking-wide">
-                {{ t('footer.copyright') }}
-                <a class="text" href="https://ltm.studio/">{{ t('footer.studio') }}</a>
+            <div class="w-full text-center pt-6 flex flex-col gap-3 items-center">
+                <p class="font-medium text-[14px] text-[#d6ae79]">{{ t('footer.disclaimer') }}</p>
+
+                <p class="text-[11px] text-gray-400 font-light tracking-wide">
+                    2026 {{ t('footer.copyright') }}
+                    <a class="text" href="https://ltm.studio/" target="_blank" rel="noopener noreferrer">{{ t('footer.studio') }}</a>
+                </p>
+
+                <!-- ССЫЛКИ НА ЮРИДИЧЕСКИЕ ДОКУМЕНТЫ -->
+                <div class="w-full flex flex-wrap items-center justify-center gap-x-6 gap-y-1 pt-1 text-[11px] text-gray-400">
+                    <RouterLink to="/privacy-policy" class="underline hover:text-[#d6ae79] transition-colors">
+                        {{ t('footer.privacyPolicy') }}
+                    </RouterLink>
+                    <RouterLink to="/personal-data-regulation" class="underline hover:text-[#d6ae79] transition-colors">
+                        {{ t('footer.personalDataRegulation') }}
+                    </RouterLink>
+                </div>
             </div>
 
         </div>

@@ -4,7 +4,7 @@ export const productsMeta = {
       "id": 1,
       "slug": "apple",
       "category": "fruits",
-      "country": "Turkey",
+      "countries": ["poland", "italy", "turkey", "china"],
       "image": "/images/fruits/apple.webp",
       "imageBg": "/images/fruits/apple-2.webp"
     },
@@ -12,7 +12,7 @@ export const productsMeta = {
       "id": 2,
       "slug": "quince",
       "category": "fruits",
-      "country": "Turkey",
+      "countries": ["turkey", "spain", "argentina"],
       "image": "/images/fruits/quince-1.webp",
       "imageBg": "/images/fruits/quince-2.webp"
     },
@@ -20,7 +20,7 @@ export const productsMeta = {
       "id": 3,
       "slug": "pear",
       "category": "fruits",
-      "country": "Turkey",
+      "countries": ["argentina", "china", "italy", "netherlands"],
       "image": "/images/fruits/pear-1.webp",
       "imageBg": "/images/fruits/pear-2.webp"
     },
@@ -28,7 +28,7 @@ export const productsMeta = {
       "id": 4,
       "slug": "pomegranate",
       "category": "fruits",
-      "country": "Turkey",
+      "countries": ["india", "turkey", "spain", "peru"],
       "image": "/images/fruits/pomegranate-1.webp",
       "imageBg": "/images/fruits/pomegranate-2.webp"
     },
@@ -36,7 +36,7 @@ export const productsMeta = {
       "id": 5,
       "slug": "plum",
       "category": "fruits",
-      "country": "Turkey",
+      "countries": ["chile", "spain", "china", "argentina"],
       "image": "/images/fruits/plum-1.webp",
       "imageBg": "/images/fruits/plum-2.webp"
     },
@@ -44,7 +44,7 @@ export const productsMeta = {
       "id": 6,
       "slug": "peach",
       "category": "fruits",
-      "country": "Turkey",
+      "countries": ["spain", "greece", "italy", "china"],
       "image": "/images/fruits/peach-1.webp",
       "imageBg": "/images/fruits/peach-2.webp"
     },
@@ -52,7 +52,7 @@ export const productsMeta = {
       "id": 7,
       "slug": "grape",
       "category": "fruits",
-      "country": "Turkey",
+      "countries": ["italy", "chile", "spain", "turkey"],
       "image": "/images/fruits/grape-1.webp",
       "imageBg": "/images/fruits/grape-2.webp"
     },
@@ -60,7 +60,7 @@ export const productsMeta = {
       "id": 8,
       "slug": "fig",
       "category": "fruits",
-      "country": "Turkey",
+      "countries": ["turkey", "greece", "egypt", "spain"],
       "image": "/images/fruits/fig-1.webp",
       "imageBg": "/images/fruits/fig-2.webp"
     },
@@ -68,7 +68,7 @@ export const productsMeta = {
       "id": 9,
       "slug": "cherry",
       "category": "fruits",
-      "country": "Turkey",
+      "countries": ["turkey", "chile", "spain", "usa"],
       "image": "/images/fruits/chery-1.webp",
       "imageBg": "/images/fruits/chery-2.webp"
     },
@@ -76,7 +76,7 @@ export const productsMeta = {
       "id": 10,
       "slug": "apricot",
       "category": "fruits",
-      "country": "Turkey",
+      "countries": ["turkey", "spain", "italy", "morocco"],
       "image": "/images/fruits/apricot-1.webp",
       "imageBg": "/images/fruits/apricot-2.webp"
     }
@@ -86,7 +86,7 @@ export const productsMeta = {
       "id": 1,
       "slug": "tomato",
       "category": "vegetables",
-      "country": "Turkey",
+      "countries": ["spain", "mexico", "morocco", "netherlands"],
       "image": "/images/vegetables/tomato-1.webp",
       "imageBg": "/images/vegetables/tomato-2.webp"
     },
@@ -94,7 +94,7 @@ export const productsMeta = {
       "id": 2,
       "slug": "potato",
       "category": "vegetables",
-      "country": "Turkey",
+      "countries": ["egypt", "netherlands", "poland", "china"],
       "image": "/images/vegetables/potato-1.webp",
       "imageBg": "/images/vegetables/potato-2.webp"
     },
@@ -102,7 +102,7 @@ export const productsMeta = {
       "id": 3,
       "slug": "carrot",
       "category": "vegetables",
-      "country": "Turkey",
+      "countries": ["china", "poland", "usa", "netherlands"],
       "image": "/images/vegetables/carrot-1.webp",
       "imageBg": "/images/vegetables/carrot-2.webp"
     },
@@ -110,7 +110,7 @@ export const productsMeta = {
       "id": 4,
       "slug": "mushroom",
       "category": "vegetables",
-      "country": "Turkey",
+      "countries": ["poland", "netherlands", "china", "usa"],
       "image": "/images/vegetables/mushroom-1.webp",
       "imageBg": "/images/vegetables/mushroom-2.webp"
     },
@@ -118,7 +118,7 @@ export const productsMeta = {
       "id": 5,
       "slug": "eggplant",
       "category": "vegetables",
-      "country": "Turkey",
+      "countries": ["turkey", "egypt", "spain", "china"],
       "image": "/images/vegetables/eggplant-1.webp",
       "imageBg": "/images/vegetables/eggplant-2.webp"
     },
@@ -126,7 +126,7 @@ export const productsMeta = {
       "id": 6,
       "slug": "cucumber",
       "category": "vegetables",
-      "country": "Turkey",
+      "countries": ["spain", "netherlands", "mexico", "china"],
       "image": "/images/vegetables/cucumber-1.webp",
       "imageBg": "/images/vegetables/cucumber-2.webp"
     },
@@ -134,7 +134,7 @@ export const productsMeta = {
       "id": 7,
       "slug": "bean",
       "category": "vegetables",
-      "country": "Turkey",
+      "countries": ["kenya", "china", "egypt", "usa"],
       "image": "/images/vegetables/bean-1.webp",
       "imageBg": "/images/vegetables/bean-2.webp"
     },
@@ -142,7 +142,7 @@ export const productsMeta = {
       "id": 8,
       "slug": "watermelon",
       "category": "vegetables",
-      "country": "Turkey",
+      "countries": ["turkey", "spain", "china", "mexico"],
       "image": "/images/vegetables/watermelon-1.webp",
       "imageBg": "/images/vegetables/watermelon-2.webp"
     },
@@ -150,7 +150,7 @@ export const productsMeta = {
       "id": 9,
       "slug": "melon",
       "category": "vegetables",
-      "country": "Turkey",
+      "countries": ["spain", "morocco", "china", "turkey"],
       "image": "/images/vegetables/melon-1.webp",
       "imageBg": "/images/vegetables/melon-2.webp"
     },
@@ -158,7 +158,7 @@ export const productsMeta = {
       "id": 10,
       "slug": "zucchini",
       "category": "vegetables",
-      "country": "Turkey",
+      "countries": ["spain", "morocco", "mexico", "italy"],
       "image": "/images/vegetables/zucchini-1.webp",
       "imageBg": "/images/vegetables/zucchini-2.webp"
     },
@@ -166,7 +166,7 @@ export const productsMeta = {
       "id": 11,
       "slug": "onion",
       "category": "vegetables",
-      "country": "Turkey",
+      "countries": ["netherlands", "egypt", "india", "china"],
       "image": "/images/vegetables/onion-1.webp",
       "imageBg": "/images/vegetables/onion-2.webp"
     },
@@ -174,7 +174,7 @@ export const productsMeta = {
       "id": 12,
       "slug": "pepper",
       "category": "vegetables",
-      "country": "Turkey",
+      "countries": ["spain", "netherlands", "mexico", "turkey"],
       "image": "/images/vegetables/pepper-1.webp",
       "imageBg": "/images/vegetables/pepper-2.webp"
     }

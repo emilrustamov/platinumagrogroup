@@ -58,16 +58,7 @@
                 </div>
 
                 <!-- Форма ввода email - БЕЗ АНИМАЦИИ -->
-                <form @submit.prevent class="w-full flex items-end gap-0 font-jost">
-                    <div class="flex-1 relative">
-                        <input type="email" :placeholder="t('join.emailPlaceholder')"
-                            class="w-full bg-transparent border-b border-gray-600/70 pb-3 text-sm text-secondary placeholder-gray-600/60 focus:outline-none focus:border-secondary transition-colors rounded-none tracking-wide" />
-                    </div>
-                    <button type="submit"
-                        class="bg-secondary text-white text-[11px] uppercase tracking-[0.25em] font-medium px-8 py-3.5 hover:bg-prime transition-colors duration-300 rounded-none font-syncopate flex-shrink-0">
-                        {{ t('join.sendButton') }}
-                    </button>
-                </form>
+                <ContactForm variant="inline" />
 
             </div>
         </div>
@@ -76,6 +67,7 @@
 </template>
 
 <script setup>
+import ContactForm from '@/components/contact-form.vue'
 import { ref, onMounted, onBeforeUnmount } from 'vue'
 import { useI18n } from 'vue-i18n'
 

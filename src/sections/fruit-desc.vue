@@ -95,7 +95,7 @@ onBeforeUnmount(() => {
         transitionDelay: '0s'
       }">
       <h1
-        class="font-heading text-[8vw] font-light text-secondary uppercase leading-[1.05] tracking-tight text-left">
+        class="font-heading text-[8vw] font-semibold text-secondary uppercase italic leading-[1.05] tracking-tight text-left">
         {{ t('produce.headingLine1') }}<br />
         {{ t('produce.headingLine2') }}<br />
         {{ t('produce.headingLine3') }}

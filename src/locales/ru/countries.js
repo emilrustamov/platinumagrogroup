@@ -1,0 +1,24 @@
+export const countries = {
+    countries: 'Весь мир',
+    turkey: 'Турция',
+    egypt: 'Египет',
+    ecuador: 'Эквадор',
+    spain: 'Испания',
+    morocco: 'Марокко',
+    poland: 'Польша',
+    netherlands: 'Нидерланды',
+    italy: 'Италия',
+    greece: 'Греция',
+    ukraine: 'Украина',
+    azerbaijan: 'Азербайджан',
+    argentina: 'Аргентина',
+    chile: 'Чили',
+    india: 'Индия',
+    kenya: 'Кения',
+    southAfrica: 'Южная Африка',
+    china: 'Китай',
+    usa: 'Соединённые Штаты',
+    mexico: 'Мексика',
+    peru: 'Перу'
+    // Добавляйте новые страны сюда по мере необходимости
+}

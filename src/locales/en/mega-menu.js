@@ -4,6 +4,6 @@ export const megaMenu = {
   featuredLabel: 'Featured',
   toggleAriaLabel: 'Expand category list',
   // {country} подставляется через t('megaMenu.importedFrom', { country: preview.country })
-  importedFrom: 'Imported from {country}',
+  importedFrom: 'Country of origin: {country}',
   viewProductButton: 'View Product'
 }

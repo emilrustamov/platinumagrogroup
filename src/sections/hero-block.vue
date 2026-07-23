@@ -46,7 +46,7 @@ const { t } = useI18n()
             {{ t('hero.fruitsButton') }}
           </RouterLink>
           <RouterLink to="/category/vegetables"
-            class="w-48 px-4 py-3 items-center gap-3 border border-black/60 hover:border-secondary hover:text-white hover:bg-secondary px-4 lg:px-8 py-1.5 lg:py-3.5 text-[14px] lg:text-[18px] font-semibold uppercase tracking-[3px] transition-all duration-300 group">
+            class="w-48 px-4 py-3 items-center text-center gap-3 border border-black/60 hover:border-secondary hover:text-white hover:bg-secondary px-4 lg:px-8 py-1.5 lg:py-3.5 text-[14px] lg:text-[18px] font-semibold uppercase tracking-[3px] transition-all duration-300 group">
             {{ t('hero.vegetablesButton') }}
           </RouterLink>
         </div>

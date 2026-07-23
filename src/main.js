@@ -7,12 +7,12 @@ import App from './App.vue'
 import router from './router'
 import messages from './locales'
 
-const savedLocale = localStorage.getItem('locale') || 'en'
+const savedLocale = localStorage.getItem('locale') || 'ru'
 
 const i18n = createI18n({
     legacy: false,
     locale: savedLocale,
-    fallbackLocale: 'en',
+    fallbackLocale: 'ru',
     messages
 })
 

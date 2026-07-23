@@ -41,7 +41,7 @@ export const productDetail = {
     trade: 'Foreign Trade Data'
   },
   // {productNameLower} и {productNamePlural} подставляются через t(key, { productNameLower, productNamePlural })
-  universalDescription: 'With Platinum AgroGroup buying {productNameLower} from Turkey becomes very easy. Platinum AgroGroup as a company of supplier of organic fruits and vegetables is able to export the amount you need to anywhere in the world. As one of the best food distribution companies in Turkey, our company only delivers the freshest fruits and vegetables for you. All of our {productNamePlural}, whether it is fresh or dried, are produced with the care they deserve by Turkish farmers. We are ready and determined to provide you with the best Turkish {productNamePlural}. As Platinum AgroGroup, a turkish exporter of wholesale fresh fruits and vegetables, our mission is to introduce the food that we like and produce with diligence to the world.'
+ universalDescription: 'With Platinum AgroGroup buying {productNameLower} from around the world becomes very easy. Platinum AgroGroup as a company of supplier of organic fruits and vegetables is able to export the amount you need to anywhere in the world. As one of the best food distribution companies, our company only delivers the freshest fruits and vegetables for you. All of our {productNamePlural}, whether it is fresh or dried, are produced with the care they deserve by trusted farmers worldwide. We are ready and determined to provide you with the best {productNamePlural} from around the world. As Platinum AgroGroup, a worldwide exporter of wholesale fresh fruits and vegetables, our mission is to introduce the food that we like and produce with diligence to the world.'
 }
 
 export const categoryPage = {

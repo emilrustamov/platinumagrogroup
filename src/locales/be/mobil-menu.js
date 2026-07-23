@@ -7,6 +7,6 @@ export const mobileMenu = {
   vegetablesButton: 'Гародніна',
   followUsTitle: 'Сачыце за намі',
   contactTitle: 'Кантакты',
-  phone: '(+123) 456 7890',
+  phone: '+375 44 598-58-92',
   email: "info{'@'}platinumagrogroup.com"
 }

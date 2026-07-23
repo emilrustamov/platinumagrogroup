@@ -19,8 +19,8 @@ export default {
     email: 'Email',
     emailText: 'Надзейны і неабходны сродак сувязі ў лічбавую эпоху.',
     location: 'Месцазнаходжанне',
-    locationText: 'P.O. Box City, USA, 8779 West 801 NORWAY, USA 111',
-    phone: '+012 345 6789',
+    locationText: '220005, Рэспубліка Беларусь, г. Мінск, праспект Машэрава, 9, памяшканне 1, пакой 3',
+    phone: '+375 44 598-58-92',
     emailAddress: "info{'@'}platinumagrogroup.com"
   },
 

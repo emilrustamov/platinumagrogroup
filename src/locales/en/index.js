@@ -8,6 +8,7 @@ import about from './about.js'
 import contact from './contact.js'
 import products from './products/index.js'
 import notFound from './not-found.js'
+import { countries } from './countries.js'
 
 export default {
   ...hero,
@@ -19,5 +20,6 @@ export default {
   ...about,
   ...contact,
   ...products,
-  ...notFound
+  ...notFound,
+  countries
 }

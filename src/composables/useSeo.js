@@ -6,7 +6,8 @@ import { SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE, defaultSeo } from '@/config/seo.
 // vue-i18n локаль -> код для og:locale (Facebook и др. ждут формат "en_US", "be_BY")
 const OG_LOCALE_MAP = {
   en: 'en_US',
-  be: 'be_BY'
+  be: 'be_BY',
+  ru: 'ru_RU'
 }
 
 /**
@@ -16,7 +17,7 @@ const OG_LOCALE_MAP = {
  *
  *   useSeo({
  *     title: 'Wholesale Apples — Platinum AgroGroup',
- *     description: 'Premium wholesale apples exported from Turkey...',
+ *     description: 'Premium wholesale apples exported from ..',
  *     path: '/product/apple',
  *     image: '/images/fruits/apple.webp',   // необязательно, иначе дефолтная OG-картинка
  *     type: 'product'                        // необязательно, по умолчанию 'website'
@@ -151,7 +152,7 @@ export function useOrganizationStructuredData() {
     logo: `${SITE_URL}/images/logo.jpg`,
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+012-345-6789',
+      telephone: '+375 44 598-58-92',
       contactType: 'customer service',
       email: 'info@platinumagrogroup.com'
     },

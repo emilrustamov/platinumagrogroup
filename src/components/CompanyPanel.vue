@@ -67,7 +67,7 @@ const galleryProducts = computed(() => {
 
         <!-- Текстовое описание -->
         <p class="text-left text-sm md:text-base font-light text-gray-300/90 leading-relaxed mb-8 max-w-[90%]">
-          {{ t('mobileMenu.description') }}
+          {{ t('footer.disclaimer') }}
         </p>
 
         <!-- Кнопки FRUITS и VEGETABLES -->
@@ -136,7 +136,7 @@ const galleryProducts = computed(() => {
         <div class="flex flex-col items-start gap-4">
           <h4 class="font-heading text-[28px] tracking-wide">{{ t('mobileMenu.contactTitle') }}</h4>
           <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 text-sm font-light text-gray-300">
-            <a href="tel:+1234567890" class="flex items-center gap-2 text-[16px] hover:text-[#d6ae79] transition">
+            <a href="tel:+375445985892" class="flex items-center gap-2 text-[16px] hover:text-[#d6ae79] transition">
               <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />

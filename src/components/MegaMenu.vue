@@ -240,7 +240,7 @@ const toggleVegetables = () => {
         </h2>
 
         <p class="mt-1 lg:mt-3 text-sm lg:text-base text-gray-500">
-          {{ t('megaMenu.importedFrom', { country: preview.country }) }}
+          <!-- {{ t('megaMenu.importedFrom', { country: t('countries.' + preview.country) }) }} -->
         </p>
 
         <div class="flex-1 flex items-center justify-center min-h-[180px] lg:min-h-[260px]">

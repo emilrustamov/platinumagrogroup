@@ -2,7 +2,7 @@
 @import "tailwindcss";
 
 @theme {
-  --font-heading: 'Fondamento', cursive;
+  --font-heading: 'Cormorant Garamond', serif;
   --font-body: 'Jost', sans-serif;
   --font-deg: 'Syncopate', sans-serif;
 

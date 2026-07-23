@@ -87,7 +87,7 @@ const seoKeywords = computed(() => {
     if (!product.value) return undefined
     const nameLower = product.value.name.toLowerCase()
     const categoryWord = product.value.category === 'fruits' ? 'fruit' : 'vegetable'
-    return `${nameLower}, wholesale ${nameLower}, ${nameLower} export, ${categoryWord}, Turkey ${categoryWord}, fresh ${nameLower}`
+    return `${nameLower}, wholesale ${nameLower}, ${nameLower} export, ${categoryWord}, worldwide ${categoryWord}, fresh ${nameLower}`
 })
 
 useSeo(() => ({
@@ -222,11 +222,6 @@ onBeforeUnmount(() => {
                         <img :src="img" :alt="`${product?.name} ${index + 1}`"
                             class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
                     </div>
-                    <div v-for="i in 3" :key="'extra-' + i"
-                        class="relative overflow-hidden rounded-lg aspect-[4/3]">
-                        <img :src="galleryImages[0]" :alt="`${product?.name} extra ${i}`"
-                            class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" />
-                    </div>
                 </div>
 
                 <!-- ПРАВАЯ КОЛОНКА: STICKY БЛОК -->
@@ -236,7 +231,7 @@ onBeforeUnmount(() => {
                             {{ product?.name }}
                         </h1>
                         <p class="text-gray-500 text-[16px] leading-relaxed">
-                            {{ t('productDetail.tagline') }}
+                            {{ t('megaMenu.importedFrom', { country: product?.countries?.map(c => t('countries.' + c)).join(', ') || '' }) }}
                         </p>
 
                         <!-- ИНФОРМАЦИЯ О ПРОДУКТЕ -->
