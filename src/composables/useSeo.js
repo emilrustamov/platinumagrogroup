@@ -6,7 +6,6 @@ import { SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE, defaultSeo } from '@/config/seo.
 // vue-i18n локаль -> код для og:locale (Facebook и др. ждут формат "en_US", "be_BY")
 const OG_LOCALE_MAP = {
   en: 'en_US',
-  be: 'be_BY',
   ru: 'ru_RU'
 }
 

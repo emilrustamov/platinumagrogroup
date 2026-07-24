@@ -7,7 +7,15 @@ import App from './App.vue'
 import router from './router'
 import messages from './locales'
 
-const savedLocale = localStorage.getItem('locale') || 'ru'
+let savedLocale = localStorage.getItem('locale') || 'ru'
+
+// Защита: если у пользователя в браузере ещё сохранён 'be' с тех времён,
+// когда белорусский был доступен - переключаем на 'ru', чтобы избежать
+// ошибок (иначе i18n попытается найти messages.be, которого больше нет)
+if (!messages[savedLocale]) {
+    savedLocale = 'ru'
+    localStorage.setItem('locale', 'ru')
+}
 
 const i18n = createI18n({
     legacy: false,

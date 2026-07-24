@@ -7,7 +7,7 @@ const { locale } = useI18n()
 const languages = [
 { code: 'ru', name: 'Русский', flag: '🇷🇺' },
   { code: 'en', name: 'English', flag: '🇬🇧' },
-  { code: 'be', name: 'Беларуская', flag: '🇧🇾' }
+  // { code: 'be', name: 'Беларуская', flag: '🇧🇾' }
   
 ]
 
