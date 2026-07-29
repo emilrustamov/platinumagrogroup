@@ -73,11 +73,9 @@ onUnmounted(() => {
           style="text-shadow: 0 2px 10px rgba(0,0,0,0.5);"
         >
           <span class="text-[16px] xs:text-[18px] sm:text-[22px] md:text-[24px] lg:text-[28px] xl:text-[32px] font-medium">
-            Platinum
+            Платинум
           </span>
-          <span class="text-[11px] sm:text-[13px] md:text-[14px] lg:text-[16px] opacity-90 tracking-wide">
-            AgroGroup
-          </span>
+          <span class="text-[11px] sm:text-[13px] md:text-[14px] lg:text-[16px] opacity-90 tracking-wide">Агро Групп</span>
         </RouterLink>
 
         <nav class="hidden md:flex items-center justify-center gap-4 lg:gap-8 xl:gap-12 px-4 lg:px-8 xl:px-10 min-w-0 overflow-hidden">

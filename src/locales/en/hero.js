@@ -11,7 +11,7 @@ export default {
     quote: {
       title: 'Taste The Difference',
       text: '"Every fruit tells a story of nature\'s dedication. Quality is not just a standard — it\'s our promise, delivered with every harvest."',
-      author: 'Platinum Agro Group Team',
+      author: 'Платинум Агро Групп Team',
       role: 'Quality Assurance'
     },
   

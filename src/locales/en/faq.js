@@ -6,7 +6,7 @@ export default {
       questions: [
         {
           title: 'Which Type Of Payment Do You Accept?',
-          content: 'As we are not a local wholesaler or importer company. We do not accept Credit Card or payments like Moneygram, WesternUnion, Paypal payment. We are not able to work on a "credit" basis. We only accept international payment terms such as; -Cash (Bank Wire Transfer) -Irrevocable Letter of Credit at Sight'
+          content: 'Payment is accepted only by bank transfer to the organization\'s settlement account.'
         },
         {
           title: 'Which Packaging Types You Offer?',

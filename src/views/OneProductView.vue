@@ -73,7 +73,7 @@ const descriptionText = computed(() => {
 // ===== SEO: title/description собираются динамически из данных товара =====
 const seoTitle = computed(() => {
     if (!product.value) return undefined
-    return `${product.value.name} — Wholesale Export | Platinum AgroGroup`
+    return `${product.value.name} — Wholesale Export | Платинум Агро Групп`
 })
 
 const seoDescription = computed(() => {

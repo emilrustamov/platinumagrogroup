@@ -39,8 +39,8 @@ const { t } = useI18n()
                 <!-- Колонка 1 -->
                 <div class="md:col-span-4 flex flex-col gap-4 items-start">
                     <h2 class="font-heading text-3xl flex flex-col font-light tracking-wide mb-6">
-                        <span class="text-[32px] font-medium">Platinum</span>
-                        <span class="text-[18px] opacity-90 tracking-wide">AgroGroup</span>
+                        <span class="text-[32px] font-medium">Платинум</span>
+                        <span class="text-[18px] opacity-90 tracking-wide">Агро Групп</span>
                     </h2>
                     <div class="flex flex-col gap-2 text-[16px] text-gray-300 font-light leading-relaxed">
                         <p>{{ t('footer.address') }}</p>

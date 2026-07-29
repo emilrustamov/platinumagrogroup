@@ -15,7 +15,7 @@ const OG_LOCALE_MAP = {
  * Использование в компоненте:
  *
  *   useSeo({
- *     title: 'Wholesale Apples — Platinum AgroGroup',
+ *     title: 'Wholesale Apples — Платинум Агро Групп',
  *     description: 'Premium wholesale apples exported from ..',
  *     path: '/product/apple',
  *     image: '/images/fruits/apple.webp',   // необязательно, иначе дефолтная OG-картинка

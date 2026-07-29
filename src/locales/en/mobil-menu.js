@@ -1,8 +1,8 @@
 export const mobileMenu = {
     closeAriaLabel: 'Close Panel',
-    brandName: 'Platinum',
-    brandSuffix: 'AgroGroup',
-    description: 'Platinum AgroGroup is a modern importer of premium-quality fresh fruits and vegetables, connecting eco-friendly farms worldwide with major retail chains.',
+    brandName: 'Платинум',
+    brandSuffix: 'Агро Групп',
+    description: 'Платинум Агро Групп is a modern importer of premium-quality fresh fruits and vegetables, connecting eco-friendly farms worldwide with major retail chains.',
     fruitsButton: 'Fruits',
     vegetablesButton: 'Vegetables',
     followUsTitle: 'Follow Us',
