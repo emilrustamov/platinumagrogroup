@@ -27,14 +27,15 @@ export default {
     contactText: 'For any additional questions feel free to contact us here',
     emailPlaceholder: 'enter mail address',
     send: 'Send',
-    copyright: 'Copyright © ООО «Платинум Агро Групп»  Designed & Powered by',
+    copyright: 'Copyright © «Платинум Агро Групп» LLC  Designed & Powered by',
     studio: 'ltm.studio',
     tradeRegistryLabel: 'Trade Register No.',
     tradeRegistryDateLabel: 'dated',
     disclaimer: 'This website is not an online store. Sale of goods is carried out wholesale only, under supply agreements.',
 
-    privacyPolicy: 'Privacy Policy',
-    personalDataRegulation: 'Personal Data Processing Regulation'
+    privacyPolicy: 'Personal Data Protection Policy',
+    personalDataRegulation: 'Regulation on Personal Data Processing and Transfer',
+    lname: "Limited Liability Company"
   },
 
   mobileMenu,

@@ -1,6 +1,6 @@
 export default {
   hero: {
-    brand: 'AgroGroup',
+    brand: 'Агро Групп',
     titleLine1: 'Вкус свежести',
     titleLine2: 'Лучшего от природы',
     titleLine3: 'Сбор урожая',
