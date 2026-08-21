@@ -7,7 +7,7 @@ import AboutGalery from '@/sections/about-galery.vue';
 import ContactBlock from '@/sections/contact-block.vue';
 import HomeProducts from '@/sections/home-products.vue';
 import Join from '@/sections/join.vue';
-import Team from '@/sections/team.vue';
+// import Team from '@/sections/team.vue';
 import VideoGrid from '@/sections/video-grid.vue';
 const { t } = useI18n()
 
@@ -56,7 +56,7 @@ useSeo(pagesSeo.about)
   <AboutFull />
   <HomeProducts />
   <Join />
-  <Team />
+  <!-- <Team /> -->
   <VideoGrid />
   <ContactBlock />
 </template>
